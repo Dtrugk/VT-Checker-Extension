@@ -1,0 +1,21 @@
+{
+  "name": "VirusTotal Checker",
+  "description": "Check Domain, Filehash, IP quickly",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {
+      "128": "128.png",
+      "16": "16.png"
+  },
+  "background": {
+      "scripts": ["background.js"], 
+      "persistent": true              
+  },
+  "permissions": [
+      "activeTab",  
+      "storage", 
+      "notifications",
+      "tabs",
+      "contextMenus"
+  ]
+}
